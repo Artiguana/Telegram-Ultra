@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>UlyraSoftDevelopment Mini App</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <h3>🚀 Открываю сайт ultrasoftdevelopment.com...</h3>
+
+    <script>
+        const tg = window.Telegram.WebApp;
+        tg.expand(); // на весь экран сразу
+
+        setTimeout(() => {
+            window.location.href = 'https://ulyrasoftdevelopment.com';
+        }, 800); // небольшая пауза для UX (0.8 секунды)
+    </script>
+</body>
+</html>
